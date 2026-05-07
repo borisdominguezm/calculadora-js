@@ -1,0 +1,79 @@
+/*Importa la fuente personalizada OrangeKid*/
+@font-face {
+  font-family: 'OrangeKid'; 
+  src: url('../fonts/Orange Kid.otf') format('opentype'); 
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+}
+
+
+body {
+  font-family: 'OrangeKid';
+  image-rendering: pixelated;
+  background-color: #948e8e;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #1b1b1b;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.calculadora {
+  width: 314px;
+  height: 420px;
+  margin: 0 auto;
+  background-color: #000000a4;
+  border: 2px solid whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#pantalla {
+  width: 90%;
+  padding: 10px;
+  font-family: 'OrangeKid';
+  font-size: 28px;
+  margin-bottom: 25px;
+  text-align: right;
+  background-color: #177e24;
+  
+}
+input::placeholder{
+  color: black;
+}
+
+input[type="button"] {
+  width: 70px;
+  height: 40px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-family: 'OrangeKid';
+  font-size: 22px;
+  background-color: #969090;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #ddd;
+}
+
+input[type="button"]:last-child {
+  margin-right: 0;
+}

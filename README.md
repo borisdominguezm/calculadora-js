@@ -2,6 +2,10 @@
 
 Calculadora básica desarrollada con HTML, CSS y JavaScript.
 
+## Demo en vivo
+
+[Ver calculadora](https://borisdominguezm.github.io/calculadora-js/)
+
 ## Características
 
 * Operaciones matemáticas básicas
